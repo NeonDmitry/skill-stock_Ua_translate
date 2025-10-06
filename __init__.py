@@ -46,7 +46,11 @@ class StockSkill(CommonQuerySkill):
                              "coca cola": "ko",
                              "coca-cola": "ko",
                              "google": "goog",
-                             "exxonmobil": "xom"}
+                             "exxonmobil": "xom",
+                             "єпл": "aapl",
+                             "кока кола": "ko",
+                             "кола": "ko",
+                             "гугл": "goog""}}
 
     @classproperty
     def runtime_requirements(self):
